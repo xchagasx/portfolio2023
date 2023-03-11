@@ -3,6 +3,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css"
+// import { Link as button } from "react-router-dom";
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
           <p>
             Sou Programador e desenvolvedor, passo o tempo estudando e praticando as tecnologias para melhorar a vida das pessoas!
           </p>
-          <LinkedInIcon />
+          <LinkedInIcon src='git@github.com:xchagasx/portfolio2023.git' />
           <EmailIcon />
           <GithubIcon />
       </div>
