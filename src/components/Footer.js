@@ -1,19 +1,19 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 import { Link } from "react-router-dom";
+import { GitHub } from "@material-ui/icons";
 
 function footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <a href="https://github.com/xchagasx" target='_blank' rel="noreferrer">
+          <GitHub />
+        </a>
+        <a href="https://www.linkedin.com/in/fernando-chagas-216860127/" target='_blank' rel="noreferrer">
+          <LinkedInIcon />
+        </a>
       </div>
 
       <button className="btn">
